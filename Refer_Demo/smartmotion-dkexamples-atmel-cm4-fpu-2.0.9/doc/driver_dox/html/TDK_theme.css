@@ -1,0 +1,236 @@
+
+/* Variables */
+:root {
+    /* Blue */
+    --tdk-blue: #0046AD;
+    --periwinkle: #BECAE2;
+    --green-blue: #0A86C4;
+    --oxford-blue: #0F2A50;
+    --alice-blue: #EDF6FC;
+
+    /* Violet */
+    --persian-indigo: #391463;
+    
+    /* Grey */
+    --cultured: #EDEDED;
+    --silver: #C2C2C2;
+    --gainsboro: #DEDEDE;
+
+    /* Colorful */
+    --green-cyan: #00935F;
+    --deep-cerise: #E62E8B;
+    --amber: #FFC000;
+    --eminence: #63357F;
+    --blue-grey: #5B9BD5;
+    --princeton-orange: #ED7D31;
+}
+
+/* header */
+#projectlogo {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 50px;
+}
+#projectname {
+    font: 200% Roboto,Tahoma,Arial,sans-serif;
+    font-weight:  bold;
+    color: #FFF;
+    padding: 0px 20px;
+}
+#projectbrief {
+    font: 100% Roboto,Tahoma,Arial,sans-serif;
+    color: var(--cultured);
+    padding: 0px 20px;
+}
+#projectnumber {
+    font: 50% Roboto,Tahoma,Arial,sans-serif;
+    padding: 0px 20px;
+}
+#titlearea {
+    padding: 10px 0px;
+    background-color: var(--tdk-blue);
+    border-bottom: solid 5px var(--blue-grey);
+}
+
+/* Tabs */
+.tabs, .tabs2, .tabs3 {
+    background-image: none;
+    background-color: var(--cultured);
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    border-bottom: solid 3px var(--cultured);
+    border-top: solid 3px var(--cultured);
+}
+.tablist a {
+    background-image: none;
+    background-color: var(--gainsboro);
+    color: var(--oxford-blue);
+    text-shadow: none;
+}
+.tablist a:hover {
+    background-image: none;
+    background-color: var(--green-blue);
+    color: #fff;
+    text-shadow: none;
+}
+.tablist li.current a {
+    background-image: none;
+    background-color: var(--tdk-blue);
+    color: #fff;
+    text-shadow: none;
+}
+
+h2.groupheader {
+    color: var(--tdk-blue);
+    border-bottom: 1px solid var(--tdk-blue);
+}
+
+div.header {
+    background-image: none; 
+    background-color: var(--cultured);
+    border-bottom: 1px solid var(--tdk-blue);
+}
+
+a {
+    color: var(--tdk-blue);
+}
+
+.contents a:visited {
+    color: var(--persian-indigo);
+}
+
+a.code, a.code:visited, a.line, a.line:visited {
+    color: var(--persian-indigo);
+}
+
+a.codeRef, a.codeRef:visited, a.lineRef, a.lineRef:visited {
+    color: var(--persian-indigo);
+}
+
+
+a.code, a.code:visited, a.line, a.line:visited {
+    color: var(--persian-indigo);
+}
+
+a.codeRef, a.codeRef:visited, a.lineRef, a.lineRef:visited {
+    color: var(--persian-indigo);
+}
+
+/* Code description */
+.memtitle {
+    border-top: 1px solid var(--periwinkle);
+    border-left: 1px solid var(--periwinkle);
+    border-right: 1px solid var(--periwinkle);
+    background-image: none;
+    background-color: var(--alice-blue);
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.memproto, dl.reflist dt {
+    border-top: 1px solid var(--periwinkle);
+    border-left: 1px solid var(--periwinkle);
+    border-right: 1px solid var(--periwinkle);
+    text-shadow: none;
+    box-shadow: none; 
+    color: var(--oxford-blue);
+    background-color: var(--alice-blue);
+
+}
+.memdoc, dl.reflist dd {
+    border-bottom: 1px solid var(--periwinkle);
+    border-left: 1px solid var(--periwinkle);
+    border-right: 1px solid var(--periwinkle);
+    background-image: none;
+    box-shadow: none;
+}
+table.fieldtable {
+    border: 1px solid var(--periwinkle);
+    box-shadow: none;
+}
+.fieldtable th {
+    background-image: none;
+    background-color: var(--alice-blue);
+    color: var(--oxford-blue);
+    border-bottom: 1px solid var(--periwinkle);
+}
+.fieldtable td.fieldtype, 
+.fieldtable td.fieldname,
+.fieldtable td.fielddoc {
+    border-bottom: 1px solid var(--periwinkle);
+}
+
+.fieldtable td.fieldtype, 
+.fieldtable td.fieldname {
+    border-right: 1px solid var(--periwinkle);
+}
+.fieldname {
+    font-weight: bold;
+}
+
+/* scroll */
+.ui-resizable-e {
+    background: none;
+    background-color: var(--silver);
+}
+
+/* Navigation tree */
+#nav-tree .selected {
+    background-image: none;
+    background-color: var(--tdk-blue);
+    color: #fff;
+    text-shadow: none;
+}
+#nav-tree {
+    background-image:none;
+    background-color: var(--cultured);
+}
+
+/* Footer */
+.navpath ul {
+    background-image: none;
+    background-color: var(--cultured);
+    border:none;
+    border-top:solid 1px var(--tdk-blue);
+}
+.navpath li.footer {
+    color: var(--tdk-blue);
+}
+
+/* inline code */
+code {
+    background-color: var(--cultured);
+    border-radius: 6px;
+    margin: 1px;
+    padding: .2em .4em;
+}
+
+/* block code (whole block) */
+div.fragment {
+    background-color: var(--cultured);
+    border-radius: 6px;
+    padding: 16px;
+    border: none;
+}
+
+/* block code (each line) */
+div.line {
+    font-size: 14px;
+}
+
+/* Table headers */
+table.markdownTable th {
+    background-color: var(--tdk-blue);
+    padding: 15px 10px;
+    border: 1px solid var(--tdk-blue);
+}
+
+/* Table cells */
+table.markdownTable td {
+    padding: 15px 10px;
+    border: 1px solid var(--cultured);
+}
+
+/* lists */
+ul {
+    margin: 0;
+}

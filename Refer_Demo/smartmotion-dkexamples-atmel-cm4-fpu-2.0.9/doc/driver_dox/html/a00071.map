@@ -1,0 +1,5 @@
+<map id="inv_icm426xx_transport" name="inv_icm426xx_transport">
+<area shape="rect" id="node1" title="transport interface" alt="" coords="89,120,247,149"/>
+<area shape="rect" id="node2" href="$a00077.html" title="Contains mirrored values of some IP registers." alt="" coords="5,6,163,53"/>
+<area shape="rect" id="node4" href="$a00069.html" title="base sensor serial interface" alt="" coords="187,15,317,44"/>
+</map>
