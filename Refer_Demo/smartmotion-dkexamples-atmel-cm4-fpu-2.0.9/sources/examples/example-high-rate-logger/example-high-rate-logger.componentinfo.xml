@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Store xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="AtmelPackComponentManagement">
+	<ProjectComponents>
+		<ProjectComponent z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+			<CApiVersion></CApiVersion>
+			<CBundle></CBundle>
+			<CClass>CMSIS</CClass>
+			<CGroup>CORE</CGroup>
+			<CSub></CSub>
+			<CVariant></CVariant>
+			<CVendor>ARM</CVendor>
+			<CVersion>5.1.2</CVersion>
+			<DefaultRepoPath>%24(PackRepoDir)</DefaultRepoPath>
+			<DependentComponents xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+			<Description></Description>
+			<Files xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+			<PackName>CMSIS</PackName>
+			<PackPath>%24(PackRepoDir)/arm/CMSIS/5.4.0/ARM.CMSIS.pdsc</PackPath>
+			<PackVersion>5.4.0</PackVersion>
+			<PresentInProject>true</PresentInProject>
+			<ReferenceConditionId>ARMv6_7_8-M Device</ReferenceConditionId>
+			<RteComponents xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:string></d4p1:string>
+			</RteComponents>
+			<Status>Resolved</Status>
+			<VersionMode>Fixed</VersionMode>
+			<IsComponentInAtProject>true</IsComponentInAtProject>
+		</ProjectComponent>
+	</ProjectComponents>
+</Store>
